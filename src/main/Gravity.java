@@ -10,6 +10,11 @@ package main;
 public class Gravity {
 	// TODO 1: Create the main method
 	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		double time;
+		double speed;
+		double distance;
+
 		/* TODO 2:
 		 *   a. Declare all your necessary variables inside main method.
 		 *   b. Declare a constant for 'gravity', assume the value to be 9.8
